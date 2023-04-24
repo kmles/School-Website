@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(155, 241, 241);
+    height: 10vh;
+}
+
+
+.left {
+    display: flex;
+    margin-left: 10px;
+}
+
+.right {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo{
+    display: flex;
+}
+
+.ues{
+    display: flex;
+}
+
+.navbar-items {
+    margin-right: 80px;
+}
+
+.navfontStyle {
+    font-weight: 450 !important;
+    color:rgb(20, 19, 19) !important;
+    font-style: italic;
+    font-size: 20px !important;
+}
+
+
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-header {
+    color: rgb(199, 247, 247);
+}
+
+.readMore {
+    margin-bottom: 10px;
+}
+
+.btn {
+    border: 1px solid black;
+    background-color: #fff;
+    margin-right: 10px;
+
+}
+
+.right h3 {
+    padding: 5px 8px;
+}
+
+.name{
+    display: flex;
+}
+.news{
+    border:5px solid black;
+    border-radius: 5px;
+}
+
+.detail{
+    background-color: rgb(58, 211, 231);
+    border-bottom: 3px solid rgb(233, 30, 223)
+}
+
+.slide{
+    height: 10;
+}
+
+.content{
+    text-align: center;
+    margin: 20px 0px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    margin-top: 0 !important;
+    position: relative;
+}
+
+.miss {
+    top: 220px;
+    position: absolute;
+    margin-left: 30%;
+}
+
+
+#eqr {
+    margin: 5px 5px 10px 5px;
+}
+
+.down p{
+    margin: 10px 70px;
+}
+
+.name{
+    margin:20px 0px ;
+}
+
+.move
+{
+    background: rgb(221, 255, 159);
+    font-style: italic;
+}
+
+.news h4{
+    text-align: center;
+}
+
+.container wow fadeInUp{
+    text-align: center;
+}
+
+.footerImg {
+    margin-top: 20px;
+    width: 100%;
+    height: 400px;
+    /* background-image: url(counter_background.jpg); */
+    background-image: url(footer_background.png);
+    background-size: 100% 100%;
+} 
+
+.news {
+    max-height: 300px !important;
+    background: cornsilk;
+}
+
+.box{
+    border: 2px solid aliceblue;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+
+
+.collapse navbar-collapse{
+    flood-color: rgb(3, 2, 73);
+}
+
+.card-header b h5{
+    flood-color: rgb(14, 1, 1);
+}
+
+.contentpr {
+    margin-bottom: 10px !important;
+}
+.cr_text{
+    text-align: center;
+}
